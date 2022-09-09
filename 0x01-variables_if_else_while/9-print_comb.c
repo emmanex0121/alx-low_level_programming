@@ -9,19 +9,21 @@
 
 int main(void)
 {
-	char c = '0';
+
+	int c;
 	int i;
 
 	for (i = 0; i < 10; i++)
 	{
+		putchar((c % 10) + '0');
 		if (i == 9){
-			putchar('9');
-			break;
+			continue;
 		}
-		putchar(c);
+		
 		putchar(',');
 		putchar(' ');
 		c++;
 	}
+	putchar('\n');
 	return (0);
 }
