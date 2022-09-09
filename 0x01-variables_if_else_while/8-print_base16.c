@@ -5,8 +5,6 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- *
- * 8-print_base16.c - program that prints all the numbers of base 16 in lowercase, followed by a new line.
  */
 
 int main(void)
