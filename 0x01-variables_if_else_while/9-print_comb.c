@@ -19,7 +19,7 @@ int main(void)
 			break;
 		}
 		putchar(c);
-		puthar(',');
+		putchar(',');
 		putchar(' ');
 		c++;
 	}
