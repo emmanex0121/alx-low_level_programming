@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	inti i, n1, n2;
+	int i, n1, n2;
 
 	for (i = 0; i < 9; i++)
 	{
