@@ -12,7 +12,7 @@ int main(void)
 
 	for (n1 = 0; n1 < 8; n1++)
 	{
-		for  (n2 = n1 + ; n2 < 9; n2++)
+		for  (n2 = n1 + 1; n2 < 9; n2++)
 		{
 			for (n3 = n2 + 1; n3 < 10; n3++)
 			{
@@ -30,4 +30,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
