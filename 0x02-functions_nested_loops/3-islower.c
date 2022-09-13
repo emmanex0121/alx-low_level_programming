@@ -9,14 +9,14 @@
 
 int _islower(int c)
 {
-	char a ='a';
-	char b = 'A';
+	int a ='a';
+	int b = 'A';
 	if (a <= 'z')
 	{
-		return (1);
+		c = return (1);
 	}
 	else if (b <= 'Z')
 	{
-		return (0);
+		c = return (0);
 	}
 }
