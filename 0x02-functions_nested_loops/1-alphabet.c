@@ -17,8 +17,8 @@ void print_alphabet()
 {
 	char a;
 	a = 'a';
-
-	int i;
+	int i
+		;
 	for (i = a; i < 27; i++)
 	{
 		putchar(a);
