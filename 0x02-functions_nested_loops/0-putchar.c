@@ -18,8 +18,8 @@ int main(void)
 
 /**
  * _putchars - this functon prints characters using an array and a for loop
- * @pararmetern - This is the size of the array
- * @var - This the array
+ * @n: This is the size of the array
+ * @var: This the array
  */
 void _putchars(int n, char var[])
 {
