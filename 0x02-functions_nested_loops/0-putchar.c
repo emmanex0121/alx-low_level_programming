@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
+	int var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	_putchar(var);
 	return (0);
 }
