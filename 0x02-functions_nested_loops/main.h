@@ -1,3 +1,3 @@
 #include <stdio.h>
 
-void _putchar(char var[]);
+void _putchars(char var[]);

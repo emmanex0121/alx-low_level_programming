@@ -11,11 +11,11 @@
 int main(void)
 {
 	char var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	_putchar(var);
+	_putchars(var);
 	return (0);
 }
 
-void _putchar(char var[])
+void _putchars(char var[])
 {
 	int i;
 	for (i = 0; i < 8; i++)
