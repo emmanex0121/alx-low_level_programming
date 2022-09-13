@@ -8,7 +8,7 @@
  */
 
 /**
- * print_alphabet - Funtion to print alphabet
+ * print_alphabet - This ia a funtion that prints alphabet
  *
  * Description - Prints all alphabet in lower case
  */
