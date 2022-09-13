@@ -7,6 +7,7 @@
  *
  *
  * print_alphabet - Prints all aphabets
+ * @void: lorem ipsium
  *
  * Description: This function prints all the alphabet
  */
