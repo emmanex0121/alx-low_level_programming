@@ -11,6 +11,7 @@
 int main(void)
 {
 	char var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
+
 	_putchars(9, var);
 	return (0);
 }
@@ -18,6 +19,7 @@ int main(void)
 void _putchars(int n, char var[])
 {
 	int i;
+
 	for (i = 0; i < n; i++)
 	{
 		putchar(var[i]);
