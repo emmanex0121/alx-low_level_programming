@@ -5,9 +5,7 @@
  *
  * Return: Always 0 (Success)
  *
- */
-
-/**
+ *
  * print_alphabet - Prints all aphabets
  *
  * Description: This function prints all the alphabet
