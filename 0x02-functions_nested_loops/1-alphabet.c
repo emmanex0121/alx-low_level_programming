@@ -8,7 +8,7 @@
  */
 
 /**
- * print_alphabet - Prints all aphabets from a to z
+ * print_alphabet - Prints all aphabets
  *
  * Description: This function prints all the alphabet
  */
