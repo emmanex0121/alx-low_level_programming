@@ -11,5 +11,7 @@ int _islower(int c);
 
 void _putchar(int in);
 
-int _isalpha(int c);
+int _isalpha(int c)
+	
+int print_sign(int n);;
 
