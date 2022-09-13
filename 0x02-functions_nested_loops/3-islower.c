@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * _islower - Function that tests for lower case
  * @c: parameter that allows function to return integer value
