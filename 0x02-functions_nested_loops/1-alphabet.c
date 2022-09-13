@@ -15,8 +15,7 @@ int main(void)
 
 void print_alphabet()
 {
-	char a;
-	a = 'a';
+	char a = 'a';
 	int i;
 
 	for (i = a; i < 27; i++)
