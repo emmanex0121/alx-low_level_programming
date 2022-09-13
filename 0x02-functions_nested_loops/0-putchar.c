@@ -10,17 +10,16 @@
 
 int main(void)
 {
-	char var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	_putchars(var);
+	char var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
+	_putchars(9, var);
 	return (0);
 }
 
-void _putchars(char var[])
+void _putchars(int n, char var[])
 {
 	int i;
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < n; i++)
 	{
-
 		putchar(var[i]);
 	}
 }
