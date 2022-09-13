@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
  * main - Entry point
  *
@@ -8,7 +7,9 @@
  */
 
 /**
- * print_alphabet - This ia a funtion that prints alphabet
+ * @void: it is void
+ *
+ * Description: Nothing more than printing alphabets
  */
 void print_alphabet(void)
 {
