@@ -9,8 +9,6 @@
 
 /**
  * print_alphabet - This ia a funtion that prints alphabet
- *
- * Description - Prints all alphabet in lower case
  */
 void print_alphabet(void)
 {
