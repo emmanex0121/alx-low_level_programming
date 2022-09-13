@@ -19,11 +19,12 @@ int print_sign(int c)
 	else if (c < 0)
 	{
 		putchar ('-');
-		return (2);
+		return (-1);
 	}
 	else if (c == 0)
 	{
 		putchar ('0');
 		return (0);
 	}
+	return (0);
 }
