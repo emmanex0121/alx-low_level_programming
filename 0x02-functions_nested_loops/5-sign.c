@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 /**
  * print_sign - Function that tests numbers if +ve or -ve
