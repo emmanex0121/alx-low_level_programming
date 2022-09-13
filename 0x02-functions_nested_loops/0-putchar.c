@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	_putchar(var);
 	return (0);
 }
 
-void _putchar(int var[])
+void _putchar(char var[])
 {
 	int i;
 	for (i = 0; i < 8; i++)
