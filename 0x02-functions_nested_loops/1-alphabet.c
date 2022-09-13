@@ -7,6 +7,9 @@
  * Return: Always 0 (Success)
  */
 
+/**
+ * print_alphabet(void) - Funtion to print alphabet
+ */
 void print_alphabet(void)
 {
 	char a = 'a';
