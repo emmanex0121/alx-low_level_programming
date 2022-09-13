@@ -1,3 +1,5 @@
+#include <stdio>
+
 
 /**
  * print_sign - Function that tests numbers if +ve or -ve
@@ -19,7 +21,7 @@ int print_sign(int c)
 		putchar ('0');
 		return (0);
 	}
-	else if (c < 0)
+	else (c < 0)
 	{
 		putchar ('-');
 		return (-1);
