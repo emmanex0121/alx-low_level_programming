@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "1-alphabet.c"
+#include <stdio.h
 
 
 void _putchars(int n, char var[]);
