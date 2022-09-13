@@ -12,8 +12,7 @@
  *
  * Description: This function prints all the alphabet
  */
-
-void print_alphabet()
+void print_alphabet(void)
 {
 	char a = 'a';
 	int i;
