@@ -9,7 +9,7 @@
 
 /**
  * print-alphabet - Prints all aphabets from a to z
- * */
+ */
 
 void print_alphabet(void)
 {
