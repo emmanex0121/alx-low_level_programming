@@ -2,6 +2,6 @@
 
 void _putchars(int n, char var[]);
 
-void print_alphabet();
+void print_alphabet(void);
 
 
