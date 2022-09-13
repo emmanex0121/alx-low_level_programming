@@ -15,11 +15,14 @@ int main(void)
 
 void print_alphabet()
 {
-	char a = 'a';
+	char a;
+	a = 'a';
+
 	int i;
 	for (i = a; i < 27; i++)
 	{
 		putchar(a);
+		a++;
 	}
 
 	putchar('\n');
