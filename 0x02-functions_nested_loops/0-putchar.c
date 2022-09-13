@@ -16,6 +16,9 @@ int main(void)
 	return (0);
 }
 
+/**
+ * _putchars - this functon prints characters using an array and a for loop
+ */
 void _putchars(int n, char var[])
 {
 	int i;
