@@ -8,7 +8,7 @@
  */
 
 /**
- * print_alphabet(void) - Funtion to print alphabet
+ * print_alphabet - Funtion to print alphabet
  */
 void print_alphabet(void)
 {
