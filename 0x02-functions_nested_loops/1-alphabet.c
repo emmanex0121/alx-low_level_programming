@@ -9,6 +9,8 @@
 
 /**
  * print_alphabet - Prints all aphabets from a to z
+ *
+ * Description: This function prints all the alphabet from a to z using for loop
  */
 
 void print_alphabet(void)
