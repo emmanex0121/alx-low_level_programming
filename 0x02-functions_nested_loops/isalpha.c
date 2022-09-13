@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void test_isalpha(int in)
+void _isalpha(int in)
 {
-	_isalpha(in);
+	test_isalpha(in);
 }
