@@ -4,14 +4,12 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ * print_alphabet - This prints all the alphabets from a to z
+ *
  */
 
-/**
- * @void: it is void
- *
- * Description: Nothing more than printing alphabets
- */
-void print_alphabet(void)
+
+ void print_alphabet(void)
 {
 	char a = 'a';
 	int i;
