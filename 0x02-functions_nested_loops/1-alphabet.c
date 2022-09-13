@@ -1,11 +1,6 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- *
- *
  * print_alphabet - Prints all aphabets
  * @void: lorem ipsium
  *
