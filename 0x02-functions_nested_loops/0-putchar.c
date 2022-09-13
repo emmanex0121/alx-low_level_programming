@@ -10,27 +10,17 @@
 
 int main(void)
 {
-	_putchar();
+	int var[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
+	_putchar(var);
 	return (0);
 }
 
-void _putchar()
+void _putchar(int var[])
 {
-	int a;
-	a = '_';
-	putchar(a);
-	a = 'p';
-	putchar(a);
-	a = 'u';
-	putchar(a);
-	a = 't';
-	putchar(a);
-	a = 'c';
-	putchar(a);
-	a = 'h';
-	putchar(a);
-	a = 'a';
-	putchar(a);
-	a = 'r';
-	putchar(a);
+	int i;
+	for (i = 0; i < 8; i++)
+	{
+
+		putchar(var[i]);
+	}
 }
