@@ -3,7 +3,7 @@
 
 /**
  * print_sign - Function that tests numbers if +ve or -ve
- * @c: parameter that allows function to return integer value
+ * @n: parameter that allows function to return integer value
  *
  * Description: sign of a number is tested
  * Return: Lorem Ipsium
