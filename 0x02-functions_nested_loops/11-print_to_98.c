@@ -6,24 +6,23 @@
  * @n: Parameter n
  *
  * Description: Lorem Ipsum
- * Return: 0 Success
  */
 
 void print_to_98(int n)
 {
-	unsigned int i;
+	int i;
 
-	if (n < 98)
+	if (n <= 97)
 	{
-		for (i = n; i < 98; i++)
+		for (i = n; i <= 97; i++)
 		{
 			printf("%d", n);
 			n++;
 		}
 	}
-	else if (n > 98)
+	else if (n >= 99)
 	{
-		for (i = n; i > 98; i--)
+		for (i = n; i >= 99; i--)
 		{
 			printf("%d", n);
 			n--;
