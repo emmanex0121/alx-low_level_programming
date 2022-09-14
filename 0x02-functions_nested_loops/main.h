@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int print_last_digit(int);
+
 int _abs(int);
 
 void _putchars(int n, char var[]);
