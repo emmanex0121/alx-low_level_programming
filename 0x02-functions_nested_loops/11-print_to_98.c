@@ -10,7 +10,7 @@ void print_to_98(int n)
 	unsigned int i;
 	for (i = n; i < 99; i++)
 	{
-		printf(n);
+		printf("%d", n);
 		n++;
 	}
 	putchar('\n');
