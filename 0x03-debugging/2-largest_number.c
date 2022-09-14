@@ -5,8 +5,6 @@
  * @a: First integer
  * @b: Second integer
  * @c: Third integer
- *
- * Description: To check for largest number
  * Return: Largest number
  */
 
