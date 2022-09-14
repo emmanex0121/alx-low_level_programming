@@ -5,7 +5,7 @@
  * @n: parameter
  *
  * Description: lorem ipsum
- * return: ipsum ipsum
+ * Return: ipsum ipsum
  */
 
 int _abs(int n)
