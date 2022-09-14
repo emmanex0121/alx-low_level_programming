@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <main.h>
-
+#include "main.h"
 
 /**
  * print_sign - Function that tests numbers if +ve or -ve
@@ -27,5 +26,5 @@ int print_sign(int c)
 		putchar ('0');
 		return (0);
 	}
-	
+	putchar('\n');
 }
