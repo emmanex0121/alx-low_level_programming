@@ -3,7 +3,7 @@
 
 
 /**
- * main - positiveor negative test
+ * main - Positiveor negative test
  *
  * Return: Always O (Success)
  */
