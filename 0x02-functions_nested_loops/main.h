@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+int _abs(int);
 
 void _putchars(int n, char var[]);
 
