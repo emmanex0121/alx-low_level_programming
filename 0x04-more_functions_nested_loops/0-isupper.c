@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-
 /**
  * _isupper - Tests case
- * @c: integer c
+ * @c: Integer c
  *
  * Description: Case of Alphabet is tested
- * Return: 1 if true, else o
+ * Return: If true return 1, else 0
  */
 
 int _isupper(int c)
