@@ -13,8 +13,7 @@ int main(void)
 {
 	time_t t;
 	char pass[] = {};
-	char chars[] = "0123456789!@#$%^&*()ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghij
-		klmnopqrstuvwxyz";
+	char chars[] = "0123456789!@#$%^&*()ABCDEFGHIJKLMOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 	srand(time(NULL));
 	genRand(15, chars);
