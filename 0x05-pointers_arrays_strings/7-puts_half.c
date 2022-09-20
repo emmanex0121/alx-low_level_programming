@@ -27,9 +27,13 @@ void puts_half(char *str)
 	int l = _strlen(str);
 
 	if (l % 2 != 0)
+	{
 		n  = (l / 2) + 1;
+	}
 	else
+	{
 		n = (l / 2);
+	}
 
 	while (n < l)
 	{
