@@ -25,6 +25,8 @@ int _strlen(char *s)
  * including \0
  * @dest: destination pointer
  * @src: source pointer
+ *
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
