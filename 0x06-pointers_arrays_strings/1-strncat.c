@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - Function to concatenate strings limiting to n number of src
+ * _strncat - Function to concatenate strings limiting to n number of src
  * @dest: parameter for string 1
  * @src: parameter for string 2
  * @n: parameter for n number of bytes from src
@@ -9,7 +9,7 @@
  * Return: contatenated string stored in @dest
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int lenght = 0;
 	int j;
