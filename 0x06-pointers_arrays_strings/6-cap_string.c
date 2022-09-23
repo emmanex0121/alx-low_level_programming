@@ -7,10 +7,9 @@
  * Return: String
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-	int i = o;
-	char s;
+	int i = 0;
 
 	/* checks first index for capital */
 	if (s[i] >= 'a' && s[i] <= 'z')
