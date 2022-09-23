@@ -13,8 +13,10 @@ char *cap_string(char *s)
 
 	/* checks first index for capital */
 	if (s[i] >= 'a' && s[i] <= 'z')
+	{
 		s[i] = s[i] - 'a' + 'A';
-	i++;
+		i++;
+	}
 
 	while (s[i] != '\0') /* iterate through string */
 	{
@@ -25,8 +27,10 @@ char *cap_string(char *s)
 			s[i - 1] == '(' || s[i - 1] == ')' || s[i - 1] == '{' ||
 			s[i - 1] == '}' || s[i - 1] == ' ' || s[i - 1] == '\t'
 			|| s[i - 1] == '\n'))
+		{
 			s[i] = s[i] - 'a' + 'A';
-		i++;
+			i++;
+		}
 	}
 	return (s);
 }
