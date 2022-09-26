@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * _memset - Function to replace memory area with a constant
- * @s: parameter of the pointer to memory area
+ * _memcpy - Function to replace memory area with a constant
+ * @dest: parameter of destination memory area
  * @n: parameter to hold number of bytes to alter
- * @b: parameter to hold the constant
+ * @src: parameter of source memory area
  *
- * Return: the swapped values
+ * Return: the copied values
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
