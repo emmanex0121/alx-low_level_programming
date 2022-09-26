@@ -26,5 +26,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (omo == 1)
 			break;
 	}
-	retuirn (i);
+	return (i);
 }
