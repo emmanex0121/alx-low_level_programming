@@ -17,7 +17,7 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		int j;
 
-		for (j = 0; j < i && s[j] != '\0' ; j++)
+		for (j = 0; j < i; j++)
 		{
 			s[j] = b;
 		}
