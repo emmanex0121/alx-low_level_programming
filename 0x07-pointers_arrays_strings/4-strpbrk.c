@@ -10,7 +10,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int count = 0, isMatch, i, j;
-	char res = '\0';
+	char *res = '\0';
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -20,7 +20,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				 res = s[i];
+				 res = &s[i];
 				 isMatch = 1;
 				 break;
 			}
