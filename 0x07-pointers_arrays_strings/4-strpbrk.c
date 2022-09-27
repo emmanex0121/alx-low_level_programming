@@ -7,18 +7,26 @@
  *
  * Return: pointer
  */
-
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i, j;
+	int count = 0, isMatch, i, j;
+	char res = '\0';
 
-	for (i = 0; *(s + i) != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; *(accept + j) != '\0'; j++)
+		isMatch = 0;
+
+		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if (*(s + i) == *(accept + j))
-				return (s + j);
+			if (s[i] == accept[j])
+			{
+				 res = s[i];
+				 isMatch = 1;
+				 break;
+			}
 		}
+		if (isMatch)
+			break;
 	}
-	return ('\0');
+	return (res);
 }
