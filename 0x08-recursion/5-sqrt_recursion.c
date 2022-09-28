@@ -26,7 +26,7 @@ int root_finder(int n, int i)
  */
 int _sqrt_recursion(int n)
 {
-	int root = root_finder(0, n, n);
+	int root = root_finder(n, 1);
 
 	if (n < 0)
 		return (-1);
