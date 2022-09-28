@@ -14,11 +14,11 @@ int root_finder(int l, int h, int n)
 		int mid = (l + h) / 2;
 
 		if ((mid * mid <= n) &&
-				((mid + 1) * (mid + 1) > N))
+				((mid + 1) * (mid + 1) > n))
 			return (mid);
-		else if (mid * mid < N)
+		else if (mid * mid < n)
 			return (root_finder(mid + 1, h, n));
-		return (root_finder(l, mid - 1, N));
+		return (root_finder(l, mid - 1, n));
 	}
 	return (l);
 }
