@@ -1,26 +1,21 @@
 #include<stdio.h>
 /**
- * root_finder - finds the root of a number using binary search
- * @l: lowest bound
- * @h: highest bound
+ * root_finder - finds the root of a number
  * @n: input number
+ * @i: iteration
  *
  * Return: the square root of the number
  */
-int root_finder(int l, int h, int n)
+int root_finder(int n, int i)
 {
-	if (l <= h)
+	if (i % (n / i) == 0)
 	{
-		int mid = (l + h) / 2;
-
-		if ((mid * mid <= n) &&
-				((mid + 1) * (mid + 1) > n))
-			return (mid);
-		else if (mid * mid < n)
-			return (root_finder(mid + 1, h, n));
-		return (root_finder(l, mid - 1, n));
+		if (i * (n / i) == n)
+			return (i);
+		else
+			return (-1);
 	}
-	return (l);
+	return (0 + root_finder(n, i + 1));
 }
 
 /**
@@ -33,7 +28,9 @@ int _sqrt_recursion(int n)
 {
 	int root = root_finder(0, n, n);
 
-	if (root * root != n)
+	if (n < 0)
 		return (-1);
+	else if (n == 0)
+		return (0);
 	return (root);
 }
