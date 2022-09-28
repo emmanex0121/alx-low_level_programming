@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void _putchar(char s);
+int _putchar(char c);
 
 void _puts_recursion(char *s);
 
