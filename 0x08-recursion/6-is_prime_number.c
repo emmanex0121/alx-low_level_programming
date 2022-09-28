@@ -13,7 +13,7 @@ int prime_checker(int n, int i)
 		return (1);
 	if (n % i == 0)
 		return (0);
-	prime_checker(n, i - 1);
+	return (prime_checker(n, i - 1));
 }
 
 /**
