@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 /**
  * main - prints it's name and  a new line
  * @argc: number of command line arguments
