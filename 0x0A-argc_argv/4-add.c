@@ -3,7 +3,7 @@
 /**
  * is_num - iterate through each argv to test if it's a number
  * @s: input
- * Return: true only if entire string is a number, false if not
+ * Return: 1 if is number, otherwise 0
  */
 
 int is_num(char *s)
