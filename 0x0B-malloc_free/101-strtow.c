@@ -70,7 +70,7 @@ char **strtow(char *str)
 				w[wc][l] = str[i + l];
 			w[wc][l] = '\0';
 			wc++;
-			i+=j;
+			i += j;
 		}
 		else
 			i++;
