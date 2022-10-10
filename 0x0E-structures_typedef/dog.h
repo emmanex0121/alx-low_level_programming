@@ -1,5 +1,5 @@
-#ifndef HEADERFILE_H
-#define HEADERFILE_H
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - dog struct with attributes
@@ -7,7 +7,6 @@
  * @age: Dog's age
  * @owner: Dog's owner
  */
-
 struct dog
 {
 	char *name;
@@ -16,4 +15,5 @@ struct dog
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
+
 #endif
