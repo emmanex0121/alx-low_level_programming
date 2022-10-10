@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef HEADERFILE_H
+#define HEADERFILE_H
 
 /**
  * struct dog - dog struct with attributes
@@ -14,3 +14,4 @@ struct dog
 	float age;
 	char *owner;
 };
+#endif
