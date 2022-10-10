@@ -3,15 +3,15 @@
 #include <stdlib.h>
 
 /**
- * new_dog - new dog struct inside the typedef of dog_t
+ * struct new_dog - new dog struct inside the typedef of dog_t
  * @name: new dog's name
  * @age: new dog's age
  * @owner: New dog's owner
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *ndog;
 	unisigned int nl, ol, i;
+	dog_t *ndog;
 
 	if (name == NULL || owner == NULL)
 		return (NULL);
@@ -22,7 +22,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		;
 	nl++;
 	ndog->name = malloc(n1 * sizeof(char));
-	if (ndog-> == NULL)
+	if (ndog->name == NULL)
 	{
 		free(ndog);
 		return (NULL);
