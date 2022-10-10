@@ -3,10 +3,13 @@
 #include <stdlib.h>
 
 /**
- * struct new_dog - new dog struct inside the typedef of dog_t
+ * new_dog - new dog struct inside the typedef of dog_t
  * @name: new dog's name
  * @age: new dog's age
  * @owner: New dog's owner
+ *
+ * Return: Pointer to dog
+ * Description: Lorem Ipsum
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
