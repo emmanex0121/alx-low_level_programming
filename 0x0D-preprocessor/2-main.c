@@ -3,8 +3,6 @@
 
 /**
  * main - print the name of the compiled program
- * @argc: number of command line arguments
- * @argv: program command line argumanets
  *
  * Return: Always 0
  */
