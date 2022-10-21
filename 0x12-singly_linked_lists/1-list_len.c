@@ -1,10 +1,10 @@
 #include "lists.h"
 
-/*
- * list_len - Function that returns number of elements in a list
+/**
+ * list_len - function that returns number of elements in a list
  * @h: pointer to the list
  *
- * Return: umber of elements
+ * Return: Number of elements
  */
 
 size_t list_len(const list_t *h)
