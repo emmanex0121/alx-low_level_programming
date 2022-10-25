@@ -2,9 +2,10 @@
 
 /**
  * add_nodeint - Function to add a new node to the list's beginning
- * @h: Singly Linked List
+ * @head: Singly Linked List Head
+ * @n: new integer value to add to list
  *
- * Return: Address of the new element;
+ * Return: Address of the new element
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
