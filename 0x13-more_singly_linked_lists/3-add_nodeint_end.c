@@ -8,7 +8,7 @@
  * Return: Address of the new element
  */
 
-listint_t *add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *newNode;
 
@@ -20,7 +20,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	newNode->next = NULL;
 	while (head && (*head)->next)
 		*head = (*head)->next;
-	newNode = *head;
+	(*head)->next = newNode;
 
-	return (newNode);
+	return (*head);
 }
