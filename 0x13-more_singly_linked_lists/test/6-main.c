@@ -11,7 +11,7 @@
 int main(void)
 {
 	listint_t *head;
-	int sum;
+	int n;
 
 	head = NULL;
 	add_nodeint(&head, 0);
@@ -22,8 +22,14 @@ int main(void)
 	add_nodeint(&head, 98);
 	add_nodeint(&head, 402);
 	add_nodeint(&head, 1024);
-	sum = sum_listint(head);
-	printf("sum = %d\n", sum);
+	print_listint(head);
+	n = pop_listint(&head);
+	printf("- %d\n", n);
+	print_listint(head);
+	n = pop_listint(&head);
+	printf("- %d\n", n);
+	print_listint(head);
 	/*free_listint2(&head);*/
+	printf("%p\n", (void *)head);
 	return (0);
 }
