@@ -1,0 +1,20 @@
+#include "lists.h"
+
+/**
+ * free_listint2 - Function that frees list and sets head
+ * @head: singly linked list
+ */
+
+void free_listint2(listint_t **head)
+{
+	listint_t *temp;
+
+	while (*head)
+	{
+		temp = *head;
+		*head = (*head)->next;
+		(*head)->next = NULL;
+		free(temp);
+	}
+	head = NULL;
+}
