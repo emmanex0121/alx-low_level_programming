@@ -13,7 +13,10 @@ size_t print_dlistint(const dlistint_t *h)
 	size_t num_elem = 0;
 
 	if (h == NULL)
-		return num_elem;
+		return (num_elem);
+
+	while (h->prev != NULL)
+		h = h->prev;
 
 	while (h)
 	{
