@@ -29,7 +29,6 @@ void fd_open_err(int fd, int fd1, char **argv)
  * fd_close_err - checks if files can be closed.
  * @fd_close: file_from.
  * @fd1_close: file_to.
- * @argv: arguments vector.
  *
  * Return: no return.
  */
