@@ -69,7 +69,7 @@ int main(int argc, char **argv)
 	fd = open(argv[1], O_RDONLY);
 	fd1 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	fd_open_err(fd, fd1, argv);
-	
+
 	lenR = 1024;
 	while (lenR == 1024)
 	{
