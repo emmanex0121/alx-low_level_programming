@@ -79,6 +79,7 @@ int main(int argc, char **argv)
 		lenW = write(fd1, buf, lenR);
 		if (lenW == -1)
 			fd_open_err(0, -1, argv);
+	}
 
 	fd_close = close(fd);
 	fd1_close = close(fd1);
