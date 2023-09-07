@@ -57,7 +57,7 @@ void fd_close_err(int fd_close, int fd1_close)
 int main(int argc, char **argv)
 {
 	int fd, fd_close, fd1, fd1_close;
-	/*ssize_t lenR, lenW;*/
+	int lenR, lenW;
 	char *buf[1024];
 
 	if (argc != 3)
@@ -70,8 +70,8 @@ int main(int argc, char **argv)
 	fd1 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	fd_open_err(fd, fd1, argv);
 	
-	read(fd, buf, 1024);
-	write(fd1, buf, 1024);
+	lenR = read(fd, buf, 1024);
+	lenW = write(fd1, buf, lenR);
 
 	fd_close = close(fd);
 	fd1_close = close(fd1);
