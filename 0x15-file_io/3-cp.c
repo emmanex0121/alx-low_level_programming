@@ -33,7 +33,7 @@ void fd_open_err(int fd, int fd1, char **argv)
  *
  * Return: no return.
  */
-void fd_close_err(int fd_close, int fd1_close, char **argv)
+void fd_close_err(int fd_close, int fd1_close)
 {
 	if (fd_close == -1)
 	{
@@ -68,7 +68,7 @@ int main(int argc, char **argv)
 
 	fd = open(argv[1], O_RDONLY);
 	fd1 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	fd_open_err(fd, fd1);
+	fd_open_err(fd, fd1, argv);
 
 	buf = malloc(sizeof(char) * 1024);
 	read(fd, buf, 1024);
