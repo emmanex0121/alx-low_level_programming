@@ -3,7 +3,7 @@
 /**
  * append_text_to_file - appends a text to a file
  * @filename: filename
- * text_content: null terminated string content to be appended
+ * @text_content: null terminated string content to be appended
  *
  * Return: 1 if file exists, -1 if file not exist | no write permission
  */
