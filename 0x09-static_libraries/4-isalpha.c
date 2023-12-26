@@ -1,17 +1,22 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * _isalpha - this checks for alphabet character
- * @c: this is the character to be checked
- * Return: 1 or alphabet character or return 0 for non alphabet character
+ * _isalpha - Function that tests for any alphabet
+ * @c: parameter that allows function to return integer value
+ *
+ * Description: Testing for alphabet lower or upper
+ * Return: Lorem Ipsium
  */
 
 int _isalpha(int c)
 {
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 
-if ((c >= 65 && c <= 97) || (c >= 97 && c <= 122))
-{
-return (1);
-}
-return (0);
 }

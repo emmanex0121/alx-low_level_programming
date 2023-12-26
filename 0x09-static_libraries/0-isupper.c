@@ -1,10 +1,11 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * _isupper - this check if c is uppercase
- * @c: parameter to be checked
+ * _isupper - Tests case
+ * @c: Integer c
  *
- * Return: return 1 when sucessful else return 0
+ * Description: Case of Alphabet is tested
+ * Return: If true return 1, else 0
  */
 
 int _isupper(int c)

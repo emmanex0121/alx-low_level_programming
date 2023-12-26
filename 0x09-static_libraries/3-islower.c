@@ -1,18 +1,22 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * _islower - checks for lower case in the code
- * @c: the character to be checked
+ * _islower - Function that tests for lower case
+ * @c: parameter that allows function to return integer value
  *
- * Return: return 1 for lowercase character or 0 for anything not lowercase
+ * Description: Case of alphabet is tested
+ * Return: Lorem Ipsium
  */
 
 int _islower(int c)
-
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 'a' && c <= 'z')
 	{
-	return (1);
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
+
 }
