@@ -1,26 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _abs - function that returns absolute value of an int
- * @n: parameter
+ * _abs - this computes the absolute value of an integer.
+ * @c: this is the number to be computed.
  *
- * Description: lorem ipsum
- * Return: ipsum ipsum
+ * Return: this returns the absolute value of number or 0
  */
 
-int _abs(int n)
+int _abs(int c)
+
 {
-	if (n < 0)
+	if (c < 0)
 	{
-		n = n * (-1);
+	int abs_val;
+
+	abs_val = c * -1;
+	return (abs_val);
 	}
-	else if (n > 0)
-	{
-		n = n * 1;
-	}
-	else if (n == 0)
-	{
-		n = 0;
-	}
-	return (n);
+	return (c);
 }

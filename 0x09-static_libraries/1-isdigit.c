@@ -1,16 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _isdigit - Tests for digit
- * @c: integer variable c
+ * _isdigit - this checks for a digit 0 through 9
+ * @c: parameter to be checked
  *
- * Description: Lorem ipsum
- * Return: Ipsum Ipsum
+ * Return: return 1 when sucessful else return 0
  */
 
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
+	if (c >= 48 && c <= 57)
 		return (1);
 	else
 		return (0);
